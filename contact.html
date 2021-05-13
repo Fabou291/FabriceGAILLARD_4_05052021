@@ -16,7 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	
-	<script src="./js/min/jquery-3.6.0.min.js" defer ></script>
+	<script src="./js/min/jquery-3.6.0.min.js" defer></script>
 	<script src="./js/min/bootstrap.min.js" defer></script>
 	<script src="./js/min/blocs.min.js" defer></script>
 	<script src="./js/min/jqBootstrapValidation.min.js" defer></script>
@@ -44,7 +44,7 @@
 								<a href="index.html">Accueil</a>
 							</li>
 							<li>
-								<a href="contact.html">Nous contacter </a>
+								<a href="contact.html">Nous contacter</a>
 							</li>
 						</ul>
 					</div>
@@ -52,6 +52,7 @@
 			</div>
 		</header>
 		<!-- bloc-0 END -->
+
 
 		<main>
 			<!-- bloc-6 -->
@@ -77,28 +78,30 @@
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-6">
-							<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+							<form id="form_1" novalidate success-msg="Votre message à été envoyé." fail-msg="Il semble que notre serveur ne répond pas, désolé pour le dérangement occasioné!">
 								<div class="form-group">
-									<label>
+									<label for="name">
 										Nom
 									</label>
-									<input id="name" class="form-control" required />
+									<input type="" id="name" name="name" class="form-control" required aria-required="true" placeholder="Indiquez votre nom" />
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="email">
 										Adresse email
 									</label>
-									<input id="email" class="form-control" type="email" required />
+									<input type="email" id="email" name="email" class="form-control"  required aria-required="true" placeholder="Indiquez votre adresse email" />
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="input_504">
 										Comment nous avez-vous connu ?
 									</label>
-									<input class="form-control" type="email" required id="input_504" />
+									<input type="text" id="input_504" name="input_504" class="form-control" required aria-required="true" placeholder="Comment nous avez-vous connu ?" />
 								</div>
 								<div class="form-group">
-									<label>Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
-									<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+									<label for="message">
+										Brief de votre projet (Ajoutez autant de détails que nécessaire)
+									</label>
+									<textarea id="message" name="message" class="form-control" rows="4" cols="50" aria-required="true" required placeholder="Indiquez en quoi consiste votre projet"></textarea>
 								</div> 
 								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 									Envoyer
