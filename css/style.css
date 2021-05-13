@@ -338,6 +338,7 @@ a:hover {
 }
 
 .navbar-toggle {
+    font-size: 20px;
     margin: 10px 10px 0 0;
     border: 0px;
 }
@@ -702,6 +703,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    list-style: none; /* add */
 }
 
 h2 {
@@ -1074,6 +1076,7 @@ h4 {
 .citation figcaption {
     color : rgba(0, 0, 0, .8);
 }
+
 
 @media (max-width: 767px) {
     .bg-banniere {
