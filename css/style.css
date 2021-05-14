@@ -736,6 +736,8 @@ h4 {
 }
 
 .portfolio-thumb {
+    width : 270px;
+    height : 270px;
     margin-bottom: 24px;
 }
 
@@ -1142,6 +1144,16 @@ h4 {
 
 textarea.contact-form-control {
     height: auto;
+}
+
+.logo{
+    width : 214px;
+    height : 40px;
+}
+
+.logo-black{
+    width : 100px;
+    height : 100px;
 }
 
 @media (max-width: 767px) {
