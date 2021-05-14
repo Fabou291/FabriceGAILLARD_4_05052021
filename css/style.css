@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -500,7 +503,6 @@ nav .caret {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -693,7 +695,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto auto auto; /* modif */
     list-style: none; /* add */
     padding : 0;
 }
@@ -1087,7 +1089,7 @@ h4 {
 
 .partner a {
     display : inline-block;
-    padding : 5px 10px;
+    padding : 14px;
     color : white !important;
 }
 
@@ -1097,6 +1099,8 @@ h4 {
 
 .partner ul {
     padding : 0;
+    display : flex;
+    justify-content: center;
 }
 
 .partner li {
