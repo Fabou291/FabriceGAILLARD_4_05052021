@@ -505,6 +505,8 @@ nav .caret {
     right: 20px;
     z-index: 500;
     transition: all .3s ease-in-out;
+    color : white !important; /*add*/
+    background-color: rgba(0, 0, 0, .7); /*add*/
 }
 
 .scrollToTop span {
@@ -808,19 +810,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("../img/desktop/dots-bg.webp");
+    background-image: url("../img/desktop/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("../img/desktop/lines-h2-bg.webp");
+    background-image: url("../img/desktop/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("../img/desktop/texture-paper.webp"), url("../img/desktop/la-chouette-agence-banniere.webp");
+    background-image: url("../img/desktop/texture-paper.png"), url("../img/desktop/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("../img/desktop/texture-paper.webp"), url("../img/desktop/image-de-presentation.webp");
+    background-image: url("../img/desktop/texture-paper.png"), url("../img/desktop/image-de-presentation.jpg");
 }
 .bg-presentation, .bg-banniere {
     background-attachment: scroll, fixed;
@@ -1102,6 +1104,7 @@ h4 {
 .partner ul {
     padding : 0;
     display : flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -1156,16 +1159,18 @@ textarea.contact-form-control {
     height : 100px;
 }
 
+
+
 @media (max-width: 767px) {
     .btn-navbar-toggle {
         display : block;
     }
 
     .bg-banniere {
-        background-image: url("../img/desktop/texture-paper.webp"), url("../img/desktop/la-chouette-agence-banniere.webp");
+        background-image: url("../img/desktop/texture-paper.png"), url("../img/desktop/la-chouette-agence-banniere.jpg");
     }
     
     .bg-presentation {
-        background-image: url("../img/desktop/texture-paper.webp"), url("../img/desktop/image-de-presentation.webp");
+        background-image: url("../img/desktop/texture-paper.png"), url("../img/desktop/image-de-presentation.jpg");
     }
 }
