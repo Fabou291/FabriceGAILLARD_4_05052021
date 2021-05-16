@@ -1157,6 +1157,10 @@ textarea.contact-form-control {
     background-color: rgba(0, 0, 0, .7); 
 }
 
+.nav>li>a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 767px) {
     .btn-navbar-toggle {
         display : block;
